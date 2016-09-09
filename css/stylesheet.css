@@ -10,6 +10,12 @@ p {
 	cursor: text;
 }
 
+a {
+  color:#F5F5F5;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 
 
@@ -65,7 +71,6 @@ h1 {
 	font-size: 16px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	cursor: text;
 	text-align: left;
 
 }
@@ -78,7 +83,6 @@ h2 {
     font-family: 'lekton', sans-serif;
     font-weight: 100;
     letter-spacing: 5px;
-    cursor: text;
     color: #5a5a5a;
 
 /*
@@ -91,7 +95,6 @@ h2 {
     text-shadow: 2px 2px #000;
     letter-spacing: 5px;
     margin-bottom: 25px;
-    cursor: text;
    	padding: 0 35px;*/
 
 
@@ -102,7 +105,6 @@ h2 {
 	font-family: 'lekton', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
-    cursor: text;
     margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
@@ -131,7 +133,6 @@ ul {
     text-shadow: 2px 2px #000;
     letter-spacing: 5px;
     margin-bottom: 25px;
-    cursor: text;
     padding: 0 35px;
     font-style: italic;
 
@@ -141,15 +142,17 @@ li {
 	
 }
 
+span{
 
-a {
-	color:#F5F5F5;
-	text-decoration: none;
 }
 
-span {
+/*span:hover a{ content: '' }
+span a:hover:after {content:"Coming Soon"}*/
+
+
+/*span {
   position: relative;
-  display: block;
+  display: initial;
   cursor: pointer;
 }
 
@@ -183,7 +186,7 @@ span:hover:after {
   width: 100%;
   transition: 0s;
 }
-
+*/
 
 
 footer {
