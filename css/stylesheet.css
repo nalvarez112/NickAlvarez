@@ -24,37 +24,38 @@ a {
 	justify-content: space-between;
 	max-width: 800px;
 	margin: 15px auto 0px;
+  height: 5vh;
 }
 
 .box-left {
 	border-left: 1px solid #fff;
 	border-top: 1px solid #fff;
-	width: 25px;
-	height: 25px;
+	width: 5vh;
+	height: 5vh;
 
 }
 
 .box-right {
 	border-right: 1px solid #fff;
 	border-top: 1px solid #fff;
-	width: 25px;
-	height: 25px;
+	width: 5vh;
+  height: 5vh;
 
 }
 
 .box-bottom-left {
 	border-left: 1px solid #fff;
 	border-bottom: 1px solid #fff;
-	width: 25px;
-	height: 25px;
+	width: 5vh;
+  height: 5vh;
 
 }
 
 .box-bottom-right {
 	border-right: 1px solid #fff;
 	border-bottom: 1px solid #fff;
-	width: 25px;
-	height: 25px;
+	width: 5vh;
+  height: 5vh;
 
 }
 
@@ -62,6 +63,7 @@ a {
 	max-width: 750px;
 	margin: 15px auto;
 	z-index: 200;
+  height: 80vh
 }
 
 h1 {
@@ -138,13 +140,13 @@ ul {
 
 }
 
-li {
-	
-}
 
-span{
+.coming-soon:hover span {
+   display: none;}
 
-}
+.coming-soon:hover:before {content:"Coming Soon"}
+
+
 
 /*span:hover a{ content: '' }
 span a:hover:after {content:"Coming Soon"}*/

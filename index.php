@@ -45,8 +45,9 @@
 		<div class="box-right"></div>
 	</div>
 
+
 	<div class="container">
-	
+
 
 
 	
@@ -63,13 +64,15 @@
 		</div>
 	
 
-		<ul>
-			<li><span><a href="#">Work</a></span></li>
-			<li><span><a href="#">Projects</a></span></li>
-			<li><span><a href="#">About</a></span></li>
+		<ul class="port-links">
+			<li class="coming-soon"><span>Work</span></li>
+			<li class="coming-soon"><span>Projects</span></li>
+			<li class="coming-soon"><span>About</span></li>
 			<li><a href="mailto:nickalvarez112@gmail.com">Contact</a></li>
 
 		</ul>
+
+	
 	
 	</div>
 
@@ -78,10 +81,16 @@
 		<div class="box-bottom-right"></div>
 	</div>
 
+
 <footer>
 </footer>
 
 </div>
 
 </body>
+
+
+<script type="text/javascript" src="js/js.js"></script>
+
+
 </html>
