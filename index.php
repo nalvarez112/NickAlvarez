@@ -52,10 +52,10 @@
 
 	
 		<div class="city">
-			<div> 
+			<header> 
 				<h1>Nicholas Alvarez</h1>
 				<h2>Ecommerce Management<br /> &amp; Front-End Developement</h2>
-			</div>
+			</header>
 
 			<div>
 				<p><i class="fa fa-map-marker" aria-hidden="true"></i> San Francisco</p>
@@ -72,6 +72,14 @@
 
 		</ul>
 
+		<ul class="social-links">
+			<li><a href="https://www.linkedin.com/in/nickalvarezna"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+			<li><a href="https://angel.co/nick-alvarez"><i class="fa fa-angellist" aria-hidden="true"></i></a></li>
+			<li><a href="https://github.com/nalvarez112"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+			<li><a href="https://www.instagram.com/nickalvarez_"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+		</ul>
+
+
 	
 	
 	</div>
@@ -81,9 +89,6 @@
 		<div class="box-bottom-right"></div>
 	</div>
 
-
-<footer>
-</footer>
 
 </div>
 

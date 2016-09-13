@@ -25,6 +25,8 @@ a {
 	max-width: 800px;
 	margin: 15px auto 0px;
   height: 5vh;
+  padding: 0 15px;
+
 }
 
 .box-left {
@@ -63,7 +65,7 @@ a {
 	max-width: 750px;
 	margin: 15px auto;
 	z-index: 200;
-  height: 80vh
+  height: 82vh
 }
 
 h1 {
@@ -74,6 +76,8 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	text-align: left;
+   padding: 0 15px;
+
 
 }
 
@@ -86,6 +90,8 @@ h2 {
     font-weight: 100;
     letter-spacing: 5px;
     color: #5a5a5a;
+    padding: 0 15px;
+
 
 /*
 	text-align: right;
@@ -110,6 +116,8 @@ h2 {
     margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
+    padding: 0 15px;
+
 
 
 }
@@ -144,54 +152,53 @@ ul {
 .coming-soon:hover span {
    display: none;}
 
-.coming-soon:hover:before {content:"Coming Soon"}
+.coming-soon:hover:before {content:"Coming Soon";  color: #5a5a5a; }
 
 
+.social-links {
+  list-style-type: none;
+  display: flex;
+  max-width: 400px;
+  justify-content: space-between;
+  margin: auto;
+  font-size: 12px;
+  position:absolute;
+  bottom:2%;
 
-/*span:hover a{ content: '' }
-span a:hover:after {content:"Coming Soon"}*/
-
-
-/*span {
-  position: relative;
-  display: initial;
-  cursor: pointer;
 }
 
-span:before, span:after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 1px;
-  top: 50%;
-  margin-top: -0.5px;
-  background: #fff;
+.social-links i {
+  color: #EAE431;
 }
 
-span:before {
-  left: -2.5px;
-}
-span:after {
-  right: 2.5px;
-  background: #fff;
-  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+.social-links i:hover {
+  color: #5a5a5a;
 }
 
-span:hover:before {
-  background: #fff;
-  width: 100%;
-  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+.social-links li {
+  padding-right: 5px;
 }
 
-span:hover:after {
-  background: transparent;
-  width: 100%;
-  transition: 0s;
+@media (max-width: 650px) {
+
+  .borders {display: none;}
+
+  header {margin-bottom: 35px;}
+
+  h1,h2 {text-align: center;}
+
+  .city { flex-direction: column; text-align: center; margin-bottom: 35px;}
+
+  ul {text-align: center;}
+
+  .social-links {font-size: 24px;}
+
 }
-*/
 
 
-footer {
-	position: absolute;
-    bottom: 0;
+@media (max-width: 399px) {
+  .port-links {
+    font-size: 50px;
+  }
 }
+
