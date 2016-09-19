@@ -14,14 +14,26 @@
 
 </script>
 	
-	<title>Nick Alvarez - Ecommerce Manager and Front-end Developer</title>
+	<title>Nick Alvarez : Ecommerce Manager and Front-end Developer</title>
 
-    <meta name="description" content="Ecommcer managment, consulting, and front-end development"/>
+    <meta name="description" content="Ecommerce managment, consulting, and front-end development"/>
     <meta name="keywords" content="ecommerce managent, ecommcer consulting, ecommcer development, business growth, ecommcerce setup, front-end web development, site creation, business sites, content management, web developer, san francisco, new york " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 	<link rel='shortcut icon' href='favicon.png' type='image/x-icon' />
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
 
-
+    <meta property="og:title" content="Nick Alvarez : Ecommerce Manager and Front-end Developer"/>
+    <meta property="og:type" content="company" />
+    <meta property="og:url" content="http://nickalvarez.net/" />
+    <meta property="og:image" content="http://nickalvarez.net/favicon.png" />
+    <meta property="og:description" content="Ecommerce managment, consulting, and front-end development in San Francisco and New York City" />
+    <meta property="og:site_name" content="Nick Alvarez" />
+    <meta property="og:locality" content="San Francisco" />
+    <meta property="og:region" content="CA" />
+    <meta property="og:postal-code" content="94114" />
+    <meta property="og:country-name" content="USA" />   
+   
 
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -38,7 +50,7 @@
 </head>
 <body>
 
-<div class="full">
+<div class="home-screen screen fade-in one">
 
 	<div class="borders">
 		<div class="box-left"></div>
@@ -48,13 +60,11 @@
 
 	<div class="container">
 
-
-
 	
 		<div class="city">
 			<header> 
 				<h1>Nicholas Alvarez</h1>
-				<h2>Ecommerce Management<br /> &amp; Front-End Developement</h2>
+				<h2>E<!-- -->c<!-- -->o<!-- -->m<!-- -->m<!-- -->e<!-- -->r<!-- -->c<!-- -->e M<!-- -->a<!-- -->n<!-- -->a<!-- -->g<!-- -->e<!-- -->m<!-- -->e<!-- -->n<!-- -->t<br /> &amp; F<!-- -->r<!-- -->o<!-- -->n<!-- -->t<!-- -->-<!-- -->E<!-- -->n<!-- -->d D<!-- -->e<!-- -->v<!-- -->e<!-- -->l<!-- -->o<!-- -->p<!-- -->e<!-- -->m<!-- -->e<!-- -->n<!-- -->t</h2>
 			</header>
 
 			<div>
@@ -62,12 +72,18 @@
 				<p><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</p>
 			</div>
 		</div>
-	
+		
+
+		<div class="mobile-div">
+		<p>Ecommerce Manager and Front-end Developer with expertise in fashion and consumer goods. Currently based in San Francisco.</p>
+		<p>Portfolio Coming Soon</p>
+		</div>
 
 		<ul class="port-links">
-			<li class="coming-soon"><span>Work</span></li>
-			<li class="coming-soon"><span>Projects</span></li>
-			<li class="coming-soon"><span>About</span></li>
+			<li class="coming-soon work"><span>Work</span></li>
+			<li class="coming-soon projects"><span>Projects</span></li>
+			<li class="coming-soon about"><span>About</span></li>
+			<li><a href="http://nickalvarez.net/NickAlvarez-Resume2016.pdf" target="_blank">Résumé</a></li>
 			<li><a href="mailto:nickalvarez112@gmail.com">Contact</a></li>
 
 		</ul>
@@ -92,10 +108,43 @@
 
 </div>
 
+
+<!-- <div class="work-screen screen">
+
+	<p>work screen test</p>
+
+</div> -->
+
+
+<!-- <div class="projects-screen screen">
+
+	<div class="borders">
+			<div class="box-left"></div>
+			<div class="box-right"></div>
+	</div>
+
+
+	<div class="borders">
+		<div class="box-bottom-left"></div>
+		<div class="box-bottom-right"></div>
+	</div>
+
+</div> -->
+
+
+
+
+<!-- <div class="about-screen screen">
+
+	<p>about screen test</p>
+
+</div> -->
+
+
 </body>
 
 
-<script type="text/javascript" src="js/js.js"></script>
-
+<!-- <script type="text/javascript" src="js/js.js"></script>
+ -->
 
 </html>
