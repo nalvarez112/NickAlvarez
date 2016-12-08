@@ -43,6 +43,11 @@ a {
   cursor: pointer;
 }
 
+li {
+  cursor: pointer;
+
+}
+
 .hide {
   display: none;
 }
@@ -92,11 +97,17 @@ a {
 .container {
 	max-width: 750px;
 	margin: 15px auto;
-	z-index: 200;
   height: 82vh
 }
 
-h1 {
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 25px;
+}
+
+header h1 {
 	font-family: 'Gotham', sans-serif, arial;
 	font-weight: 700;
 	color:#EAE431;
@@ -104,50 +115,27 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	text-align: left;
-   padding: 0 15px;
 
 
 }
 
-h2 {
+ header h2 {
 	
-	text-align: left;
+  	text-align: left;
     font-size: 12px;
     /*font-family: 'Roboto Condensed';*/
     font-family: 'lekton', sans-serif;
     font-weight: 100;
     letter-spacing: 5px;
     color: #5a5a5a;
-    padding: 0 15px;
-
-
-/*
-	text-align: right;
-    font-size: 72px;
-    font-family: 'Baskerville', 'Libre Baskerville', serif;
-    line-height: 50px;
-    font-weight: 100;
-    text-transform: uppercase;
-    text-shadow: 2px 2px #000;
-    letter-spacing: 5px;
-    margin-bottom: 25px;
-   	padding: 0 35px;*/
-
-
 }
+
 
 .city  {
 	text-align: right;
 	font-family: 'lekton', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
-    margin-bottom: 25px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15px;
-
-
-
 }
 
 .city i {
@@ -158,9 +146,19 @@ h2 {
 	margin-bottom: 0;
 }
 
+.menu {
+  flex:1;
+}
 
+.port-links {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font: small-caps 100 13px/150% 'gotham', Helvetica, sans-serif;
+    letter-spacing: 4px;
+}
 
-ul {
+.home-screen-links {
 	list-style-type: none;
     text-align: right;
     font-size: 72px;
@@ -171,7 +169,7 @@ ul {
     text-shadow: 2px 2px #000;
     letter-spacing: 5px;
     margin-bottom: 25px;
-    padding: 0 35px;
+    padding: 0 15px;
     font-style: italic;
 
 }
@@ -192,7 +190,7 @@ ul {
   margin: auto;
   font-size: 12px;
   position:absolute;
-  bottom:2%;
+  bottom:4%;
 
 }
 
@@ -210,35 +208,33 @@ ul {
 
 
 
-
-.projects-screen {
-
-  max-width: 750px;
-  margin: 15px auto;
-
-}
-
-.projects-screen header h1,
-.projects-screen header h2  {
-
-  text-align: center;
-
-}
-
-
-@media (max-width: 650px) {
+@media screen and (max-width: 768px) {
 
   .borders {display: none;}
 
-  header {margin-bottom: 35px;}
+  header {
+    margin-bottom: 50px;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 15px;
+    }
 
-  h1,h2 {text-align: center;}
+  header h1, 
+  header h2 {text-align: center;}
 
-  .city { flex-direction: column; text-align: center; margin-bottom: 35px;}
+  header div:first-child {
+    margin-bottom: 25px;
+  }
+
+  .city { flex-direction: column; text-align: center;}
 
   ul {text-align: center;}
 
-  .social-links {font-size: 24px; width: 100%;}
+  .social-links {
+    font-size: 24px; 
+    width: 100%;
+    justify-content: space-around;
+  }
 
   .coming-soon {
    display: none;}
@@ -247,20 +243,42 @@ ul {
     display: block;
     font-family: 'lekton', sans-serif;
     color: #fafafa;
-    padding: 0 15px 25px;
+    padding: 0 15px;
+    margin-bottom: 50px;
     text-align: center;
     letter-spacing: 1px;
   }
 
-  .port-links {
+  .home-screen-links {
     font-size: 50px;
-    padding: 0 15px;}
+    padding: 0 15px;
+    text-align: center;}
 
 }
 
 
-@media (max-width: 399px) {
+@media screen and (max-height: 375px) {
 
+.home-screen {
+  margin-bottom:50px;
+}
+
+.social-links {
+  position: relative;
+}
+
+}
+
+
+@media screen and (max-height: 414px) {
+
+.home-screen {
+  margin-bottom:50px;
+}
+
+.social-links {
+  position: relative;
+}
 
 }
 

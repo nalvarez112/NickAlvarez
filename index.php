@@ -50,7 +50,10 @@
 </head>
 <body>
 
-<div class="home-screen screen fade-in one">
+
+<!--- HOME SCREEN -->
+
+<div class="fade-in one">
 
 	<div class="borders">
 		<div class="box-left"></div>
@@ -60,33 +63,68 @@
 
 	<div class="container">
 
-	
-		<div class="city">
-			<header> 
-				<h1>Nicholas Alvarez</h1>
-				<h2>E<!-- -->c<!-- -->o<!-- -->m<!-- -->m<!-- -->e<!-- -->r<!-- -->c<!-- -->e M<!-- -->a<!-- -->n<!-- -->a<!-- -->g<!-- -->e<!-- -->m<!-- -->e<!-- -->n<!-- -->t<br /> &amp; F<!-- -->r<!-- -->o<!-- -->n<!-- -->t<!-- -->-<!-- -->E<!-- -->n<!-- -->d D<!-- -->e<!-- -->v<!-- -->e<!-- -->l<!-- -->o<!-- -->p<!-- -->e<!-- -->m<!-- -->e<!-- -->n<!-- -->t</h2>
+			<header class="home"> 
+				<div>
+					<h1>Nicholas Alvarez</h1>
+					<h2>E<!-- -->c<!-- -->o<!-- -->m<!-- -->m<!-- -->e<!-- -->r<!-- -->c<!-- -->e M<!-- -->a<!-- -->n<!-- -->a<!-- -->g<!-- -->e<!-- -->m<!-- -->e<!-- -->n<!-- -->t<br /> &amp; F<!-- -->r<!-- -->o<!-- -->n<!-- -->t<!-- -->-<!-- -->E<!-- -->n<!-- -->d D<!-- -->e<!-- -->v<!-- -->e<!-- -->l<!-- -->o<!-- -->p<!-- -->e<!-- -->m<!-- -->e<!-- -->n<!-- -->t</h2>
+				</div> 
+
+
+				<div class="city">
+					<p><i class="fa fa-map-marker" aria-hidden="true"></i> San Francisco</p>
+					<p><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</p>
+				</div>
+
+
+				<!--<div class="menu">
+					<ul class="port-links">
+						<li class="home">home</li>
+						<li class="work">work</li>
+						<li class="projects">projects</li>
+						<li class="about">about</li>
+						<li><a href="http://nickalvarez.net/NickAlvarez-Resume2016.pdf" target="_blank">résumé</a></li>
+						<li><a href="mailto:nickalvarez112@gmail.com">contact</a></li>
+					</ul>
+				</div>-->
 			</header>
-
-			<div>
-				<p><i class="fa fa-map-marker" aria-hidden="true"></i> San Francisco</p>
-				<p><i class="fa fa-map-marker" aria-hidden="true"></i> New York City</p>
-			</div>
-		</div>
 		
+		<!-- HOME SCREEN -->
 
-		<div class="mobile-div">
-		<p>Ecommerce Manager and Front-end Developer with expertise in fashion and consumer goods. Currently based in San Francisco.</p>
-		<p>Portfolio Coming Soon</p>
+		<div class="home-screen">
+
+			<div class="mobile-div">
+				<p>Ecommerce Manager and Front-end Developer with expertise in fashion and consumer goods. Currently based in San Francisco.</p>
+				<p>Portfolio Coming Soon</p>
+			</div>
+
+			<ul class="home-screen-links">
+				<li class="coming-soon work-port"><span>Work</span></li>
+				<li class="coming-soon projects-port"><span>Projects</span></li>
+				<li class="coming-soon about-port"><span>About</span></li>
+				<li><a href="http://nickalvarez.net/NickAlvarez-Resume2016.pdf" target="_blank">Résumé</a></li>
+				<li><a href="mailto:nickalvarez112@gmail.com">Contact</a></li>
+			</ul>
+
 		</div>
 
-		<ul class="port-links">
-			<li class="coming-soon work"><span>Work</span></li>
-			<li class="coming-soon projects"><span>Projects</span></li>
-			<li class="coming-soon about"><span>About</span></li>
-			<li><a href="http://nickalvarez.net/NickAlvarez-Resume2016.pdf" target="_blank">Résumé</a></li>
-			<li><a href="mailto:nickalvarez112@gmail.com">Contact</a></li>
 
-		</ul>
+		<!--- WORK SCREEN 
+		<div class="work-screen screen">
+			<h3>WORK</h3>
+			<p>Coming Soon</p>
+		</div>
+
+		PROJECTS SCREEN 
+		<div class="projects-screen screen">
+
+		</div> 
+
+		ABOUT SCREEN 
+		<div class="about-screen screen">
+
+
+		</div> -->
+
 
 		<ul class="social-links">
 			<li><a href="https://www.linkedin.com/in/nickalvarezna"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
@@ -95,9 +133,6 @@
 			<li><a href="https://www.instagram.com/nickalvarez_"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 		</ul>
 
-
-	
-	
 	</div>
 
 	<div class="borders">
@@ -108,41 +143,7 @@
 
 </div>
 
-
-<!-- <div class="work-screen screen">
-
-	<p>work screen test</p>
-
-</div> -->
-
-
-<!-- <div class="projects-screen screen">
-
-	<div class="borders">
-			<div class="box-left"></div>
-			<div class="box-right"></div>
-	</div>
-
-
-	<div class="borders">
-		<div class="box-bottom-left"></div>
-		<div class="box-bottom-right"></div>
-	</div>
-
-</div> -->
-
-
-
-
-<!-- <div class="about-screen screen">
-
-	<p>about screen test</p>
-
-</div> -->
-
-
 </body>
-
 
 <!-- <script type="text/javascript" src="js/js.js"></script>
  -->
